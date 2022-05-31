@@ -1,9 +1,11 @@
-import styled from 'styled-components';
-
 export const theme = {
   colors: {
     header: '#ebfbff',
-    body: '#003264',
-    footer: '#003333',
+    bodyBgColor: '#fff',
+    bodyTextColor: '#333',
+    linkColor: '#003264',
+  },
+  fonts: {
+    baseFontSize: '16px',
   },
 };
