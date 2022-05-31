@@ -1,11 +1,11 @@
 import { ThemeProvider } from 'styled-components';
 
 // components
-import { theme } from './styled/Theme.styled';
+import { theme } from './styles/Theme.styled';
 import Header from './Header';
 
 // styled
-import { Container } from './styled/Container.styled';
+import { Container } from './styles/Container.styled';
 
 function App() {
   return (

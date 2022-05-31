@@ -1,4 +1,4 @@
-import { StyledHeader } from './styled/Header.styled';
+import { StyledHeader } from './styles/Header.styled';
 
 function Header() {
     return (
