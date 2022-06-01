@@ -24,11 +24,18 @@ export const StyledFigure = styled.figure`
       transform: translate(-50%, -25%);
       text-align: center;
 
-      &.circle {
+      ${(props) =>
+        props.shape === 'circle'
+          ? `
         border: none;
         box-shadow: 0 2px 26px 4px rgba(0, 0, 0, 0.3);
         border-radius: 50%;
-      }
+        `
+          : ''}/* &.circle {
+        border: none;
+        box-shadow: 0 2px 26px 4px rgba(0, 0, 0, 0.3);
+        border-radius: 50%;
+      } */
     }
   }
 `;

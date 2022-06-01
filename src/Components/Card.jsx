@@ -2,6 +2,7 @@ import Figure from './Figure';
 
 import { StyledCard } from './styles/Card.styled';
 import image from '../images/capsule.jpg';
+// import image from '../images/casey-cott.jpg';
 
 function Card() {
     return (

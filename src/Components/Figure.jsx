@@ -4,7 +4,7 @@ function Figure({ image, alt, shape }) {
     return (
         <StyledFigure shape={shape}>
             <span className="filler">
-                <img className={shape} src={image} alt={alt} />
+                <img src={image} alt={alt} />
             </span>
         </StyledFigure>
     )
