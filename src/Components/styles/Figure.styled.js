@@ -31,11 +31,7 @@ export const StyledFigure = styled.figure`
         box-shadow: 0 2px 26px 4px rgba(0, 0, 0, 0.3);
         border-radius: 50%;
         `
-          : ''}/* &.circle {
-        border: none;
-        box-shadow: 0 2px 26px 4px rgba(0, 0, 0, 0.3);
-        border-radius: 50%;
-      } */
+          : ''}
     }
   }
 `;
