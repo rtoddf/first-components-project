@@ -1,7 +1,7 @@
 import { ThemeProvider } from 'styled-components';
 
 // components
-import { theme } from './styles/Theme.styled';
+import { theme } from './styles/Theme';
 import Header from './Header';
 import Card from './Card';
 
