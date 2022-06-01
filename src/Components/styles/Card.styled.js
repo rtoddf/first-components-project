@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const StyledCard = styled.article`
   padding: 0 20px 10px;
-  margin: 40px;
   background: ${({ theme }) => theme.grays.white};
   border: 1px solid ${({ theme }) => theme.grays.five};
   border-radius: 6px;

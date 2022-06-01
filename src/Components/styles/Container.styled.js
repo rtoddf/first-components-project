@@ -1,5 +1,3 @@
 import styled from 'styled-components';
 
-export const Container = styled.header`
-  /* border: 1px solid #000; */
-`;
+export const Container = styled.div``;
