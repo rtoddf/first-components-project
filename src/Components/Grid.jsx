@@ -1,14 +1,9 @@
 import { StyledGrid } from './styles/Grid.styles';
 
-import Card from './Card';
-
-function Grid() {
+function Grid({children}) {
     return (
         <StyledGrid data-col="4">
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+            { children }
         </StyledGrid>
     )
 }

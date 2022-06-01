@@ -3,9 +3,10 @@ import { ThemeProvider } from 'styled-components';
 // components
 import { theme } from './Components/styles/Theme';
 import Grid from './Components/Grid';
+import Card from './Components/Card';
 
 // styled
-import GlobalStyles from './Components/styles/global/Global';
+import GlobalStyles from './Components/styles/Global';
 import { Container } from './Components/styles/Container.styled';
 
 function App() {
@@ -13,7 +14,12 @@ function App() {
     <ThemeProvider theme={theme}>
       <GlobalStyles />
       <Container>
-        <Grid />
+        <Grid>
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+        </Grid>
       </Container>
     </ThemeProvider>
   )
