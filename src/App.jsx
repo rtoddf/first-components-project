@@ -1,20 +1,24 @@
 import { ThemeProvider } from 'styled-components';
 
 // components
-import { theme } from './Components/styles/Theme';
+import Container from './Components/Container';
 import Grid from './Components/Grid';
 import Card from './Components/Card';
 
-// styled
-import GlobalStyles from './Components/styles/Global';
-import { Container } from './Components/styles/Container.styled';
+// styles
+import GlobalStyles from './styles/Global';
+import { theme } from './styles/Theme';
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles />
       <Container>
-        <Grid>
+        <Grid cols="4">
+            <Card />
+            <Card />
+            <Card />
+            <Card />
             <Card />
             <Card />
             <Card />
